@@ -1,0 +1,20 @@
+body {
+    background: #ddd;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+nav, section, article, aside, footer {
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+nav span {
+    padding: 10px
+}
+
