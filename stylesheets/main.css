@@ -1,20 +1,42 @@
 body {
-    background: #ddd;
+  background: #ddd;
 }
 
 .container {
-    margin: 0 auto;
-    padding: 10px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.topnav {
+  text-align: right;
+}
+
+.copyright {
+  text-align: center;
 }
 
 nav, section, article, aside, footer {
-    background: white;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 10px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 nav span {
-    padding: 10px
+  padding: 10px
 }
 
+section {
+  margin: 10px 0;
+}
+
+article {
+  height: 300px;
+}
+
+aside {
+  background-color: cyan;
+  float: right;
+  margin: 0 10px;
+  width: 30%;
+}
