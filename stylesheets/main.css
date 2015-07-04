@@ -15,6 +15,18 @@ body {
   text-align: center;
 }
 
+.contain:before, .contain:after {
+    content: "";
+    display: table;
+}
+.contain:after {
+  clear: both;
+}
+.contain {
+  clear: both;
+  *zoom: 1;
+}
+
 nav, section, article, aside, footer {
   background: white;
   border: 1px solid black;
@@ -28,10 +40,6 @@ nav span {
 
 section {
   margin: 10px 0;
-}
-
-article {
-  height: 300px;
 }
 
 aside {

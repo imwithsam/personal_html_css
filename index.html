@@ -16,7 +16,7 @@
 <section>
   <h2>This is an H2 level heading.</h2>
   <p>This is a <b>section</b>. It is a block-level semantic element that groups together similar content. The article following this paragraph is encapsulated within this section.</p>
-  <article>
+  <article class="contain">
     <h3>This is an H3 level heading.</h3>
     <a href="aside.html">
     <aside>
@@ -27,6 +27,7 @@
     </a>
     <p>This is an <b>article</b>. It is a block-level semantic element for independent, self-contained content. A common example would be an individual blog post.</p>
     <p>As of HTML5, <b>anchors</b> may wrap any level element including block level. This allows entire sections to be links. To demonstrate this, I have made the entire aside element a link.</p>
+    <p>The aside is a <b>contained float</b>. If you refer to the <i>main.css</i> for this site, you will see a <i>.contain</i> class which is applied to this article element. This allows the floated aside to be contained within the article parent element.</p>
   </article>
 </section>
 <footer>
